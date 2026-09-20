@@ -18,6 +18,6 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(div(12, 2), 6)
         self.assertEqual(div(12, 3), 4)
         self.assertEqual(div(8, 2), 4)
-    if __name__ == '__main__':
+if __name__ == '__main__':
 
     unittest.main()
